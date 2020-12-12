@@ -1,0 +1,8 @@
+Show files installed by package:
+dpkg -L package
+
+List all installed packages:
+apt list --installed
+
+Which installed package owns a file:
+dpkg -S /bin/ls
