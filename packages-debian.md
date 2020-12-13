@@ -39,3 +39,9 @@ removes orphaned packages, i.e. installed packages that used to be installed as 
 
 will also attempt to remove other packages which were required by packagename on but are not required by any remaining packages. Note that aptitude only remembers dependency information for packages that it has installed.
 
+
+Removes package with dependencies:
+   ```
+   dpkg --purge --force-depends application
+   ```
+
